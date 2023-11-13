@@ -4,6 +4,8 @@
     "python.envFile": "${workspaceFolder}/.env",
     "python.defaultInterpreterPath": "python",
     "python.languageServer": "Pylance",
-    "python.terminal.activateEnvInCurrentTerminal": true,
-    "pythonautovenv.autoInstallVenv": false
+    "python.terminal.activateEnvInCurrentTerminal": false,
+    "pythonautovenv.autoInstallVenv": false,
+    "python.terminal.activateEnvironment": false,
+    "python.createEnvironment.trigger": "prompt"
 }
